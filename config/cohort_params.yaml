@@ -1,0 +1,29 @@
+# ChromatinIntegrator Configuration
+
+project:
+  name: "ChromatinIntegrator"
+  description: "Multi-database clinical & functional analysis of DAXX/ATRX/H3.3 axis"
+  genome_build: "GRCh38"
+
+genes:
+  - "H3F3A"
+  - "ATRX"
+  - "DAXX"
+
+cbioportal:
+  base_url: "https://www.cbioportal.org/api"
+  # Target cohorts: Pediatric Glioma & Pancreatic Neuroendocrine Tumors
+  cohorts:
+    - "mixed_pedglio_msk_2022"
+    - "pannet_jhu_2017"
+
+alpha_missense:
+  threshold_pathogenic: 0.564  # Standard classification threshold
+  threshold_benign: 0.100
+
+depmap:
+  dependencies_to_track:
+    - "PARP1"
+    - "ATRX"
+    - "DAXX"
+    - "DAXX"
