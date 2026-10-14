@@ -1,22 +1,24 @@
-# Epigenetic-Mutation-Pipeline Configuration
+# Epigenetic-Mutation-Pipeline Configuration (PRC2 & EZHIP Axis)
 
 project:
   name: "Epigenetic-Mutation-Pipeline"
-  description: "Multi-database clinical & functional analysis of DAXX/ATRX/H3.3 axis"
+  description: "Multi-database clinical & functional analysis of PRC2 complex (EZH2, SUZ12, EED) and EZHIP"
   genome_build: "GRCh38"
 
 genes:
-  - "H3F3A"
-  - "ATRX"
-  - "DAXX"
+  - "EZH2"
+  - "SUZ12"
+  - "EED"
+  - "EZHIP"
 
 filters:
-  gnomad_max_maf: 0.001          # Filter out common germline variants (>0.1%)
+  gnomad_max_maf: 0.001
   alpha_missense_pathogenic: 0.564
-  cosmic_min_recurrence: 5        # Minimum tumor samples to flag as a hotspot
+  cosmic_min_recurrence: 5
 
 depmap:
   dependencies_to_track:
-    - "PARP1"
-    - "ATRX"
-    - "DAXX"
+    - "EZH2"
+    - "SUZ12"
+    - "EED"
+    - "CBX2"

@@ -1,0 +1,6 @@
+Gene,Chromosome,Position,Alteration,Protein_Change,Cancer_Type,AlphaMissense,gnomAD_AF,COSMIC_Count,ClinVar,DepMap_Z,Mutated_Pct,Pathogenicity_Tier
+EZH2,7q36.1,148507850,Y641N Hotspot,p.Tyr641Asn,Lymphoma / Glioma,0.978,0.0,1150,Pathogenic,-2.95,22.4,Pathogenic (>=0.564)
+EZH2,7q36.1,148507852,A682G,p.Ala682Gly,Pediatric Glioma,0.89,1e-05,180,Pathogenic,-2.12,8.1,Pathogenic (>=0.564)
+SUZ12,17q11.2,31405100,Loss-of-Function,p.Gln51Ter,Malignant Peripheral Nerve Sheath,0.92,0.0,430,Pathogenic,-3.45,18.5,Pathogenic (>=0.564)
+EED,11q14.2,88812400,Truncating,p.Arg290fs,Pediatric Tumor,0.91,0.0,210,Pathogenic,-2.75,11.2,Pathogenic (>=0.564)
+EZHIP,Xq24,121500400,Overexpression / C-Terminal,p.Met1_Val443,Posterior Fossa Ependymoma,0.45,0.0,350,Pathogenic,-3.8,92.0,Regulatory / Overexpression
