@@ -1,6 +1,0 @@
-Gene,Alteration,Cancer_Type,AlphaMissense,gnomAD_AF,COSMIC_Count,ClinVar,DepMap_Z,Mutated_Pct
-H3F3A,K27M,Pediatric Glioma,0.982,0.0,1420,Pathogenic,-2.41,78.4
-H3F3A,G34R,Pediatric Glioma,0.945,0.0,310,Pathogenic,-1.95,14.2
-ATRX,Loss-of-Function,Osteosarcoma,0.891,2e-05,850,Pathogenic,-3.12,31.0
-DAXX,Truncating/Frameshift,PanNET,0.91,0.0,420,Pathogenic,-2.85,25.6
-ATRX,Missense R723H,Glioma,0.62,0.00045,12,Conflicting interpretations,-0.85,4.1
